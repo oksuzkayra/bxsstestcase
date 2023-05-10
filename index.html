@@ -1,0 +1,25 @@
+<html>
+
+	<head>
+		<title>Blind XSS Test Case</title>
+	</head>
+
+	<body>
+
+		<h1>Register Form</h1>
+		
+		<form action="register.php" method="post">
+			<input type="text" id="uname" name="uname"><br>
+			<input type="password" id="pwd" name="pwd"><br><br>
+			<input type="submit" value="Register" id="btn">
+
+		</form>
+
+		
+		<h2>
+			<a href="bestusers.php">Best Users is: </a>
+		</h2>
+	</body>
+
+
+</html>
